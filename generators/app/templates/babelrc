@@ -1,0 +1,8 @@
+{
+  "presets": [<%= presets.map(function(name) {
+    return '"' + name + '"';
+  }).join(', ') %>],
+  "plugins": [<%= plugins.map(function(name) {
+    return '"' + name + '"';
+  }).join(', ') %>]
+}
